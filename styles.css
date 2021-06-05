@@ -1,0 +1,16 @@
+#canvas5{
+    background: white;
+  
+    position: absolute;
+    
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+
+}
+#formdiv{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    z-index: 1;
+}
