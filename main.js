@@ -6,7 +6,7 @@ var ctx5 = canvas5.getContext('2d');
 var posx=0;
 setInterval(function(){
 posx+=1;
-    ctx5.fillStyle='DeepSkyBlue';
+    ctx5.fillStyle=" rgba(2, 2, 2, 0.068)";
     ctx5.fillRect(0,0,canvas5.width,canvas5.height);
 
     ctx5.fillStyle="white";
@@ -18,4 +18,6 @@ posx+=1;
        posx=1;
    } 
 },30)
+
+
 }
